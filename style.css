@@ -1,0 +1,388 @@
+html {
+    overflow: hidden;
+}
+
+body {
+    overflow: hidden;
+    background-color: rgb(235, 235, 235);
+    margin: 0%;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    height: 48px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: black 0px -8px 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 800px;
+}
+
+.header-content-control {
+    display: flex;
+    width: 50%;
+}
+
+.logoa {
+    display: flex;
+}
+
+.logo {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.search {
+    border-radius: 8px;
+    width: 200px;
+    border: none;
+    padding-left: 10px;
+    background-color: rgb(235, 235, 235);
+    outline: none;
+    transition: 0.4s;
+    transition-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);
+}
+
+.switch-button {
+    height: 100%;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.switch-button:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.content-wrapper {
+    margin: auto;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    width: 800px;
+    justify-content: space-between;
+}
+
+.banner-wrapper {
+    width: 56%;
+    height: 80%;
+}
+ 
+.banner-wrapper h1 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.banner-wrapper p {
+    text-align: center;
+    font-size: 14px;
+    color: #969696;
+}
+ 
+.banner {
+    margin: auto;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.banner-button {
+    color: rgb(56, 159, 228);
+    font-size: 12px;
+    border: none;
+    background-color:rgb(235, 235, 235) ;
+    cursor: pointer;
+    transition: 0.3s;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin: 0 20px;
+}
+
+.banner-button:hover { 
+    background-color: rgba(132, 161, 214, 0.363);
+}
+
+.banner-button-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-button-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.forms-wrapper {
+    background-color: rgb(235, 235, 235);
+    width: 38%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.login-form-wrapper {
+    background-color: rgb(255, 255, 255);
+    width: calc(100% - 40px);
+    height: 120px;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.form-input {
+    width: calc(100% - 18px);
+    padding: 8px 8px;
+    border: 1px solid rgb(170, 170, 170);
+    margin-bottom: 10px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.register-form-wrapper {
+    background-color: rgb(255, 255, 255);
+    width: calc(100% - 40px);
+    height: 360px;
+    padding: 20px;
+
+
+}
+
+.info-wrapper {
+    background-color: rgb(255, 255, 255);
+    width: calc(100% - 20px);
+    height: 70px;
+    text-align: center;
+    padding: 15px 10px;
+}
+
+.form-button-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 9px;
+}
+
+.login-form-button{
+    background-color: rgb(103, 138, 202);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 10px 30px ;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.forget-password-button {
+    background-color:white;
+    color: rgb(103, 138, 202);
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px
+}
+
+.forget-password-button:hover {
+    opacity: 0.7;
+}
+
+.login-form-button:hover {
+    opacity: 0.7;
+}
+
+.register-form-title {
+    color: black;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.register-form-subtitle {
+    color: rgb(196, 196, 196);
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.form-label {
+    color: rgb(196, 196, 196);
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.dates-inputs-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-input {
+    width: 25%;
+    padding: 8px 8px;
+    border: 1px solid rgb(170, 170, 170);
+    margin-bottom: 10px;
+    font-size: 14px;
+    border-radius: 3px;
+}   
+
+.register-button {
+    background-color: rgb(14, 211, 57);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 10px ;
+    width: 100%;
+    font-size: 14px;
+    cursor: pointer; 
+    margin: 0;
+    margin-bottom: 20px; 
+    margin-top: 20px;
+}
+
+.facebook-button {
+    background-color: rgb(58, 55, 233);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 10px ;
+    width: 100%;
+    font-size: 14px;
+    cursor: pointer;  
+}
+
+.info-text {
+    color: rgb(196, 196, 196);
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.info-link {
+    color: rgb(56, 159, 228);
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+}
+
+@media (max-width:875px) {
+    .search {
+        display: none;
+    }
+
+    .switch-button {
+        display: none;
+    }
+    
+    .header {
+        box-shadow: none;
+    }
+
+    .header-content-control {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .banner-wrapper {
+        display: none;
+    }
+
+    .content-wrapper{
+        width: 100%;
+        justify-content: center;
+        height: 100%;
+        margin-top: 20px;
+    }
+
+    .forms-wrapper {
+        width: 100%;
+    }
+
+    .form-input {
+        border-radius: 10px;
+        padding-top: 10px;
+        background-color: rgba(218, 218, 218, 0.342);
+    }
+
+    .login-form-button {
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .form-button-wrapper {
+        flex-direction: column;
+    }
+    
+    .register-form-title {
+        font-size: 16px;
+        color: rgb(184, 184, 184);
+        text-align: left;
+    }
+
+    .register-form-subtitle {
+        display: none;
+    }
+
+    .login-form-wrapper {
+        height: 150px;
+    }
+
+    .forget-password-button {
+        margin: 10px;
+    }
+
+    .register-form-wrapper .form-input {
+        display: none;
+    }
+
+    .form-label {
+        display: none;
+    }
+
+    .date-input {
+        display: none;
+    }
+
+    .info-link {
+        display: none;
+    }
+
+    .info-text {
+        display: none;
+    }
+
+    .register-button {
+        border-radius: 10px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    .facebook-button {
+        border-radius: 10px;
+    }
+
+    .register-form-wrapper {
+        height: auto;
+    }
+
+    .info-wrapper {
+        display: none;
+    }
+
+    .logo {
+        margin: 0%;
+    }
+}
+
+
